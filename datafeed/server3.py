@@ -272,7 +272,7 @@ class App(object):
                 while t > self._sim_start + (datetime.now() - self._rt_start):
                     yield t, bids, asks
             else:
-                yield t, bids, asks
+                    yield t, bids, asks
 
     @property
     def _current_book_2(self):
